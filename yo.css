@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  overflow: hidden;
+  margin-top: 106px;
+  margin-left: 45px;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  font-family: Cormorant;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.anav {
+  margin-right: 81px;
+  background-color: #ffd8d8;
+  text-decoration: none;
+  padding: 5px;
+}
+.fila {
+  display: flex;
+}
+
+.texto {
+  margin-left: 45px;
+}
+p {
+  margin-left: 0px;
+  font-family: "Cormorant";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 378px; /* antes era 378  */
+  height: 490px;
+}
+
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+}
+
+.habilidades {
+  margin-left: 150px; /* antes era 72 */
+  width: 330px;
+  margin-right: 150px;
+}
+
+.imagen-gris {
+  width: 330px;
+  height: 198px;
+  background: #d9d9d9;
+}
+
+.imagen {
+  margin-top: 52px;
+  background-color: white;
+}
+
+.imagen-gris-2 {
+  width: 330px;
+  height: 475px;
+  background: #d9d9d9;
+}
