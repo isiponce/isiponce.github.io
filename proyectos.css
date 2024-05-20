@@ -42,7 +42,7 @@ h1 {
   height: 400px;
 
   display: flex;
-  background-image: url("/imagenes/proyectos/1.png");
+  background-image: url("imagenes/proyectos/1.png");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -53,7 +53,7 @@ h1 {
   height: 400px;
 
   display: flex;
-  background-image: url("/imagenes/proyectos/2.png");
+  background-image: url("imagenes/proyectos/2.png");
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -64,7 +64,7 @@ h1 {
   height: 400px;
 
   display: flex;
-  background-image: url("/imagenes/proyectos/3.png");
+  background-image: url("imagenes/proyectos/3.png");
   background-size: cover;
   background-position: center;
   align-items: center;
