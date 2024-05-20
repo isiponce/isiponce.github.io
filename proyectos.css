@@ -1,0 +1,105 @@
+:root {
+  --escala-de-grises-rosa: #ffd8d8;
+  --gris: #d9d9d9;
+}
+body {
+  font-family: Cormorant;
+}
+h1 {
+  text-align: center;
+
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 24px;
+}
+
+.carrusel {
+  margin-top: 157px;
+  gap: 36px;
+
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.proyecto {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
+
+.proyecto-imagen {
+  width: 420px;
+  height: 400px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.proyecto-1 {
+  width: 420px;
+  height: 400px;
+
+  display: flex;
+  background-image: url("/imagenes/proyectos/1.png");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+.proyecto-2 {
+  width: 420px;
+  height: 400px;
+
+  display: flex;
+  background-image: url("/imagenes/proyectos/2.png");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+.proyecto-3 {
+  width: 420px;
+  height: 400px;
+
+  display: flex;
+  background-image: url("/imagenes/proyectos/3.png");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  background-color: var(--escala-de-grises-rosa);
+  color: black;
+
+  display: flex;
+  width: 105px;
+  height: 21px;
+
+  flex-shrink: 0;
+  text-decoration: none;
+  justify-content: space-around;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.inicio {
+  margin-top: 136px;
+  margin-right: 71px;
+
+  width: 43px;
+  height: 21px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  position: absolute;
+  right: 0;
+}
