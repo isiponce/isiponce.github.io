@@ -1,0 +1,41 @@
+:root {
+  --escala-de-grises-rosa: #ffd8d8;
+}
+body {
+  font-family: "Cormorant", serif;
+}
+.navbar {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+  top: 49px;
+}
+.volver {
+  margin-right: 100px;
+}
+a {
+  color: black;
+  background-color: var(--escala-de-grises-rosa);
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.contenido {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.contenido img {
+  width: 27%;
+  height: auto;
+  object-fit: cover;
+}
+.info {
+  display: flex;
+  font-family: "Cormorant", serif;
+  flex-direction: column;
+  justify-content: end;
+  margin-left: 90px;
+}

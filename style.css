@@ -6,13 +6,7 @@ body {
   margin: 0;
 }
 .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 0;
   background-color: var(--escala-de-grises-rosa);
-  z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
   width: 100%; /* Ocupa todo el ancho */
   padding: 10px 0; /* Añade un poco de relleno para darle altura */
 }
@@ -21,13 +15,24 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
-.contenedor {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  height: 100vh;
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column; /* Cambia la disposición de los elementos a vertical */
+    align-items: center; /* Centra los elementos horizontalmente */
+  }
+
+  .navbar li {
+    width: 100%; /* Hace que los LI ocupen todo el ancho disponible */
+    text-align: center; /* Centra el texto dentro de los LI */
+  }
+
+  .navbar li a {
+    margin-left: 0; /* Elimina el margen izquierdo en pantallas pequeñas */
+  }
 }
 
 .navbar {
@@ -36,6 +41,7 @@ body {
 }
 .navbar li {
   float: left;
+  justify-content: space-between;
 }
 
 .navbar li a {
@@ -52,34 +58,40 @@ body {
   font-weight: 700;
   line-height: normal;
 }
-
-.contenido {
+.contenedor {
   display: flex;
-  align-items: flex-start;
+  height: 40%;
+  align-items: center;
   flex-direction: column;
 }
-.imagen {
-  flex: 1;
-  max-width: 50%;
-  height: 99vh;
+.contenedor-imagen {
+  top: 0;
+  display: flex;
+  width: 100%;
 }
 img {
   width: 100%;
-  height: 100%;
-}
-.presentacion {
-  margin-left: 22px;
-  margin-top: auto; /* esto deja al div presentacion lo mas abajo de la página */
-  margin-bottom: 20px;
-}
-.titulo-presentacion {
-  font-weight: 740px;
-  font-size: 32px;
+  height: auto;
 }
 
-.descripcion-presentacion {
-  width: 334px;
-  height: 48px;
+.nombre {
+  color: #000;
+
+  /* Isi/H1 */
+  font-family: Cormorant;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 35px;
+}
+.descripcion {
+  color: #000;
+
+  /* Isi/parrafo */
+  font-family: Cormorant;
   font-size: 14px;
-  margin-top: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
