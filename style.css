@@ -19,22 +19,6 @@ body {
   justify-content: space-around;
 }
 
-@media (max-width: 768px) {
-  .navbar ul {
-    flex-direction: column; /* Cambia la disposición de los elementos a vertical */
-    align-items: center; /* Centra los elementos horizontalmente */
-  }
-
-  .navbar li {
-    width: 100%; /* Hace que los LI ocupen todo el ancho disponible */
-    text-align: center; /* Centra el texto dentro de los LI */
-  }
-
-  .navbar li a {
-    margin-left: 0; /* Elimina el margen izquierdo en pantallas pequeñas */
-  }
-}
-
 .navbar {
   flex: 1;
   max-height: 550px;

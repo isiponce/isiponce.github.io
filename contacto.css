@@ -43,7 +43,7 @@ h1 {
   width: 30%;
 }
 .imagen-1 img {
-  width: 95%;
+  width: 92%;
   height: auto;
 }
 .imagen-2 {
@@ -66,6 +66,7 @@ h1 {
   .contenido {
     flex-direction: column;
     align-items: center;
+    padding-left: 15px;
   }
   .imagen-1 {
     width: 100%;
